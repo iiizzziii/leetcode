@@ -1,8 +1,9 @@
 def zzz(lst:int):
-    counter = 0
-    for l in lst:
-        if l > 3:
-            counter+=1
+    # counter = 0
+    # for l in lst:
+    #     if l > 3:
+    #         counter+=1
+    counter = sum(1 for l in lst if l > 3)
     print(counter)
 
 zzz([1,-1,0,2,2,3])

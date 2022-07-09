@@ -1,12 +1,12 @@
-def zzz(lst: int or str, rem_ele: int or str):
+def zzz(lst: int or str, rm_el: int or str):
     if not lst:
         print("empty list")
-    elif rem_ele not in lst:
+    elif rm_el not in lst:
         print("not found")
     else:
         new_lst = []
         for l in lst:
-            if l != rem_ele:
+            if l != rm_el:
                 new_lst.append(l)
         print(new_lst)
 

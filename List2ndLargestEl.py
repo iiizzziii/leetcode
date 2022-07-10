@@ -1,5 +1,5 @@
 def zzz(lst:int):
-    if not lst or len(lst) < 2:
+    if len(lst) < 2:
         print("none")
     else:
         lst.remove(max(lst))

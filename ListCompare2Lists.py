@@ -1,6 +1,4 @@
 def zzz(lst1:int,lst2:int):
-    if not lst1:
-        print(lst1)
     lst = []
     for e in lst1:
         if e not in lst2:

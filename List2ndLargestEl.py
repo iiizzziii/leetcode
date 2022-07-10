@@ -2,6 +2,7 @@ def zzz(lst:int):
     if len(lst) < 2:
         print("none")
     else:
+        set(lst)
         lst.remove(max(lst))
         print(max(lst))
 
